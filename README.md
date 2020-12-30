@@ -38,6 +38,14 @@ tcl> source ./ebaz4205.tcl
  
 This takes a while and creates the vivado project and the block design. Once it is create, yo can just build bitstream, synthezise, ...
 
+# Linux
+
+There is a simple PetaLinux BSP for this design in:
+https://github.com/alexlargacha/xilinx_bsps
+
+Also, if yocto build is wanted, here there is an example:
+https://github.com/alexlargacha/voidasterisk-yocto-manifests
+
 # References
 
 https://www.jianshu.com/p/b83c663ecaaa
